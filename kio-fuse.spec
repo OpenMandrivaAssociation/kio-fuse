@@ -1,7 +1,7 @@
 Name: kio-fuse
-Version: 5.0.0
-Release: 2
-Source0: https://invent.kde.org/system/kio-fuse/-/archive/v%{version}/%{name}-v%{version}.tar.bz2
+Version: 5.0.1
+Release: 1
+Source0: https://invent.kde.org/system/kio-fuse/-/archive/v%{version}/%{name}-%{version}.tar.bz2
 Patch0: https://invent.kde.org/system/kio-fuse/-/merge_requests/43.patch
 Patch1: https://invent.kde.org/system/kio-fuse/-/merge_requests/44.patch
 Summary: KIO module for accessing FUSE filesystems
@@ -13,13 +13,12 @@ BuildRequires: cmake(KF5KIO)
 BuildRequires: cmake(Qt5Test)
 BuildRequires: cmake(Qt5DBus)
 BuildRequires: pkgconfig(fuse3)
-BuildRequires: cmake ninja
 
 %description
 KIO module for accessing FUSE filesystems
 
 %prep
-%autosetup -p1 -n %{name}-v%{version}
+%autosetup -p1
 %cmake_kde5
 
 %build
