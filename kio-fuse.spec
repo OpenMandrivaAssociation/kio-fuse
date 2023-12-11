@@ -1,12 +1,12 @@
 Summary: KIO module for accessing FUSE filesystems
 Name: kio-fuse
-Version: 5.0.1
-Release: 3
-Source0: https://invent.kde.org/system/kio-fuse/-/archive/v%{version}/%{name}-%{version}.tar.xz
+Version: 5.1.0
+Release: 1
+Source0:  https://download.kde.org/stable/kio-fuse/kio-fuse-%{version}.tar.xz
+#Source0: https://invent.kde.org/system/kio-fuse/-/archive/v%{version}/%{name}-%{version}.tar.xz
 URL: https://invent.kde.org/system/kio-fuse
 License: GPL
 Group: Graphical desktop/KDE
-Patch0: 0001-Initialize-m_lastChildrenRefresh-to-be-really-in-the.patch
 BuildRequires: cmake(ECM)
 BuildRequires: cmake(KF5KIO)
 BuildRequires: cmake(Qt5Test)
