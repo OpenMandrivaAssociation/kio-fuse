@@ -22,6 +22,7 @@ BuildRequires: cmake(Qt6)
 BuildRequires: cmake(Qt6Core)
 BuildRequires: cmake(Qt6Test)
 BuildRequires: cmake(Qt6DBus)
+BuildRequires: qt6-qtbase-theme-gtk3
 
 Requires: fuse >= 3
 Supplements: dolphin
