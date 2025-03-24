@@ -1,7 +1,7 @@
 Summary: KIO module for accessing FUSE filesystems
 Name: kio-fuse
 Version: 5.1.0
-Release: 1
+Release: 2
 Source0:  https://download.kde.org/stable/kio-fuse/kio-fuse-%{version}.tar.xz
 #Source0: https://invent.kde.org/system/kio-fuse/-/archive/v%{version}/%{name}-%{version}.tar.xz
 URL: https://invent.kde.org/system/kio-fuse
